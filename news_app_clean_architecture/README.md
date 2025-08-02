@@ -67,7 +67,7 @@ This separation improves code maintainability, testability, and scalability.
 - Used `http` to keep dependencies lightweight
 - NewsAPI does not support offline mode, so I cached articles locally using `sqflite`
 - Search is implemented on the client side for simplicity
-- Pagination is not included due to time constraints
+
 
 ---
 
@@ -77,5 +77,3 @@ This separation improves code maintainability, testability, and scalability.
 - ✅ Offline caching using Sqflite
 - ✅ Search by title or content
 - ✅ View full article with link to source
-- ✅ Clean architecture and Riverpod state management
-- ✅ Unit and widget tests included
